@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5806" started-at="2022-01-28T22:46:08Z" finished-at="2022-01-28T22:46:14Z">
+    <groups>
+      <group name="ChromeWin32">
+        <method signature="XboxLeaderboardTest.verifyTopFiveScores()[pri:0, instance:xbox.testcases.XboxLeaderboardTest@36c88a32]" name="verifyTopFiveScores" class="xbox.testcases.XboxLeaderboardTest"/>
+      </group> <!-- ChromeWin32 -->
+    </groups>
+    <test name="Default test" duration-ms="5806" started-at="2022-01-28T22:46:08Z" finished-at="2022-01-28T22:46:14Z">
+      <class name="xbox.testcases.XboxLeaderboardTest">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxLeaderboardTest@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1484" started-at="2022-01-28T17:46:08Z" finished-at="2022-01-28T17:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyTopFiveScores()[pri:0, instance:xbox.testcases.XboxLeaderboardTest@36c88a32]" name="verifyTopFiveScores" duration-ms="1345" started-at="2022-01-28T17:46:09Z" finished-at="2022-01-28T17:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopFiveScores -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxLeaderboardTest@36c88a32]" name="tearDown" is-config="true" duration-ms="2969" started-at="2022-01-28T17:46:11Z" finished-at="2022-01-28T17:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- xbox.testcases.XboxLeaderboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
